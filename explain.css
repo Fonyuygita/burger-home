@@ -1,0 +1,24 @@
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+/*  */
+/* max-width:780px
+max-width:1024px */
+
+@media (max-width:780px){
+    /* for responsive navbar */
+
+    .open{
+        display: flex;
+    }
+
+    .nav_links{
+        flex-direction: column;
+        background-color: var(navbar-color);
+        width: 50%;
+        height: 300px;
+    }
+}
